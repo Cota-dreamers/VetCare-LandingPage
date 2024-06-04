@@ -62,14 +62,25 @@ nav a {
 
 .home-slogan {
     position: absolute;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     padding: 4% 30%;
     color: white;
     font-weight: 800;
     font-family: 'Ubuntu', sans-serif;
     margin: auto;
+    
 }
+
+.home-slogan p {
+    background-color: #08857C; /* Fondo verde */
+    padding: 20px 20px; /* Relleno ajustado para mejor apariencia */
+    display: inline-block; /* Ajusta el fondo al texto */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+    transition: transform 0.3s; /* Animación suave */
+}
+
 
 .home-btn {
     text-align: center;
