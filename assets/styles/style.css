@@ -62,13 +62,17 @@ nav a {
 
 .home-slogan {
     position: absolute;
+    bottom: 80px; /* Ajusta esta distancia según sea necesario */
+    left: 40px; /* Ajusta esta distancia según sea necesario */
     font-size: 30px;
-    text-align: center;
-    padding: 4% 30%;
+    text-align: left; /* Alinea el texto a la izquierda */
+    padding: 20px;
     color: white;
     font-weight: 800;
     font-family: 'Ubuntu', sans-serif;
-    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+    transition: transform 0.3s; /* Animación suave */
     
 }
 
